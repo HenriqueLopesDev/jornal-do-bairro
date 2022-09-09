@@ -1,0 +1,17 @@
+footer{
+    background-color: #F1FAEE;
+    border-top: 4px solid #1D3557;
+    display: flex;
+    height: 100%;
+    line-height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 26px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #E63946;
+}
