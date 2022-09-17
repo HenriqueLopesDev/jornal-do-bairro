@@ -1,0 +1,8 @@
+.tab-title{
+    font-family: 'Mukta', Arial, Helvetica, sans-serif; 
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #1D3557; 
+    border-bottom: 2px solid rgb(179, 179, 179); 
+    margin-bottom: 15px; 
+}
