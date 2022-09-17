@@ -8,60 +8,62 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/components/header.css">
+        <link rel="stylesheet" href="css/components/content.css">
+        <link rel="stylesheet" href="css/components/tabs-title.css">
+        <link rel="stylesheet" href="css/components/news.css">
         <link rel="stylesheet" href="css/components/footer.css">
         <title>Jornal do Bairro</title>
     </head>
     <body>
-        <header>
-            <h1>Jornal do Bairro</h1>
+        <header class="header">
+            <a href="index.html"><h1 class="title">Jornal do Bairro</h1></a>
 
-            <nav>
-                <a href="">Início</a>
-                <a href="">Esportes</a>
-                <a href="">Vídeos</a>
-                <a href="">Contatos</a>
-                <a href="">Logar</a>
+            <nav class="navigation">
+                <a class="options" href="">Início</a>
+                <a class="options" href="">Esportes</a>
+                <a class="options" href="">Vídeos</a>
+                <a class="options" href="">Contatos</a>
+                <a class="options" href="">Publicar</a>
                 <form action="index.html" method="get">
-                    <input id="campo" name="campo" type="text" maxlength="100" placeholder="Digite aqui sua busca">
-                    <button id="botao_busca" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> 
+                    <input class="search" type="text" maxlength="100" placeholder="Digite aqui sua busca">
+                    <button class="icon-search" id="botao_busca" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> 
                 </form>            
             </nav>
         </header>
-        <main>
+        <div class="content">
             <div class="parte-esquerda">
-                <h2 style="border-bottom: 2px solid gray; color: #1D3557; font-family: 'Mukta', Arial, Helvetica, sans-serif; font-size: 21px;">Últimas Notícias</h2>
-                <div class="noticia">
-                    <h3>Abrem novas vagas para o vestibular da FATEC</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem assumenda repudiandae atque alias cum autem repellat eaque, saepe tempore quia enim ab officia quae expedita commodi odio asperiores veritatis id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perspiciatis officiis eius animi maiores accusantium quaerat. Minus ipsa at soluta architecto nemo a itaque exercitationem quod sapiente animi. Quasi, aspernatur.</p>
+                <h2 class="tab-title">Últimas Notícias</h2>
+                <div class="news">
+                    <h3 class="news-title">Abrem novas vagas para o vestibular da FATEC</h3>
+                    <p class="news-content"></p>
                 </div>
-                <div class="noticia">
-                    <h3>Novo estudo mostra cavalo como melhor amigo do homem</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem assumenda repudiandae atque alias cum autem repellat eaque, saepe tempore quia enim ab officia quae expedita commodi odio asperiores veritatis id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perspiciatis officiis eius animi maiores accusantium quaerat. Minus ipsa at soluta architecto nemo a itaque exercitationem quod sapiente animi. Quasi, aspernatur.</p>
+                <div class="news">
+                    <h3 class="news-title">Novo estudo mostra cavalo como melhor amigo do homem</h3>
+                    <p class="news-content"></p>
                 </div>
-                <div class="noticia">
-                    <h3>Vila Isa esports se torna o melhor time do mundo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem assumenda repudiandae atque alias cum autem repellat eaque, saepe tempore quia enim ab officia quae expedita commodi odio asperiores veritatis id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perspiciatis officiis eius animi maiores accusantium quaerat. Minus ipsa at soluta architecto nemo a itaque exercitationem quod sapiente animi. Quasi, aspernatur.</p>
+                <div class="news">
+                    <h3 class="news-title">Vila Isa esports se torna o melhor time do mundo</h3>
+                    <p class="news-content"></p>
                 </div>
-                <div class="noticia">
-                    <h3>Pesquisa aponta água como maléfica para a vida</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem assumenda repudiandae atque alias cum autem repellat eaque, saepe tempore quia enim ab officia quae expedita commodi odio asperiores veritatis id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perspiciatis officiis eius animi maiores accusantium quaerat. Minus ipsa at soluta architecto nemo a itaque exercitationem quod sapiente animi. Quasi, aspernatur.</p>
+                <div class="news">
+                    <h3 class="news-title">Pesquisa aponta água como maléfica para a vida</h3>
+                    <p class="news-content"></p>
                 </div>
             </div>
             <div class="parte-direita">
                 <div class="anuncios">
-                    <h2 style="border-bottom: 2px solid gray; margin-bottom: 15px; color: #1D3557; font-family: 'Mukta', Arial, Helvetica, sans-serif; font-size: 21px;">Anúncios</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos, itaque temporibus minima quasi non minus pariatur ipsam totam soluta tenetur possimus sint eligendi optio sunt voluptas dicta impedit ipsum!</p>
+                    <h2 class="tab-title">Anúncios</h2>
+                    <p></p>
                 </div>
                 <div class="clima">
-                    <h2 style="border-bottom: 2px solid gray; margin-bottom: 15px; color: #1D3557; font-family: 'Mukta', Arial, Helvetica, sans-serif; font-size: 21px;">Clima</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae laudantium voluptatum eum quaerat dolorum. Ipsa ut, quidem fuga facilis repellendus culpa explicabo dolorem dolores dicta impedit ducimus aliquid quam.</p>
+                    <h2 class="tab-title">Clima</h2>
+                    <p></p>
                 </div>
             </div>
-        </main>
-        <footer>
-            <h1 style="font-size: 18px">Desenvolvido por Henri ©</h1>
+        </div>
+        <footer class="footer">
+            <h1 class="message">Desenvolvido por Henri ©</h1>
         </footer>
     </body>
 </html>
