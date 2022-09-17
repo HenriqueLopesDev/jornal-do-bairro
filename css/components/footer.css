@@ -1,4 +1,4 @@
-footer{
+.footer{
     background-color: #F1FAEE;
     border-top: 4px solid #1D3557;
     display: flex;
@@ -8,8 +8,8 @@ footer{
     justify-content: center;
 }
 
-h1{
-    font-size: 26px;
+.footer .message{
+    font-size: 18px;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
