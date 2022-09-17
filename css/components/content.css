@@ -1,0 +1,21 @@
+.content{
+    display: flex;
+    background-color: #FFF;
+}
+
+.parte-esquerda{
+    margin-top: 15px;
+    width: 64%;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 15px;
+}
+
+.parte-direita{
+    margin-top: 15px;
+    width: 30%;
+    padding: 10px;
+    padding-right: 25px;
+    margin-bottom: 15px;
+}
