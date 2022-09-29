@@ -1,10 +1,10 @@
-.news{
+.news-post{
     margin-bottom: 15px;
     text-align: justify;
     
 }
 
-.news-title{
+.title{
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
@@ -14,7 +14,7 @@
     line-height: 25px;
 }
 
-.news-content{
+.content{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 25px;
