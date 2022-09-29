@@ -1,4 +1,4 @@
-.header{
+.site-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     display:inline-flex;
 }
 
-.header .title{
+.site-header .title{
     font-size: 26px;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 600;
