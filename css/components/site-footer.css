@@ -1,4 +1,4 @@
-.footer{
+.site-footer{
     background-color: #F1FAEE;
     border-top: 4px solid #1D3557;
     display: flex;
@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.footer .message{
+.site-footer .message{
     font-size: 18px;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 600;
